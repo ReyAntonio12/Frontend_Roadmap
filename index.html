@@ -11,6 +11,115 @@
     <title>The Front-End Roadmap | Reynaldo Castano</title>
 </head>
 <body>
-    
+    <div class="main-container">
+        <!--Header Section and Navigation Bar -->
+        <header class="container__header">
+            <img src="assets/The Frontend Roadap.webp" alt="The Front-End Roadmap Logo" id="roadmapLogo">
+            <nav class="header__navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#" class="navigation__item--link">Home</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__item--link">The Roadmap</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__item--link">Our Presence</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__item--link">Leave us a comment</a></li>
+                </ul>
+            </nav>
+            <div class="header__subscribe-button">
+                <a href="#" class="subscribe-button__item">Subscribe</a>
+            </div> 
+        </header>
+        <!-- Introduction Section-->
+        <main class="container__introduction">
+            <h1 class="introduction__title" id="introductionTitle">The Front-End Roadmap</h1>
+            <figure class="introduction__image-container">
+                <img src="assets/frontend.webp" alt="The Front-End Roadmap" class="image-container__image">
+                <figcaption class="image-container__description">Front-End Official Logo</figcaption>
+            </figure>
+        </main>
+        <!--The Front End Roadmap Section -->
+        <!--Description Section -->
+        <section class="container__description">
+            <h2 class="description__title">Want to be a <span class="title__key-word">Front-End Developer</span>?</h2>
+            <p class="description__info">These are the steps you should follow: </p>
+            <div class="description__topics">
+                <header class="topics__header">
+                    <h3 class="topics__title">Something you need to know...</h3>
+                </header>
+                <article class="topics__topic">
+                    <h4 class="topic__title"> Create and Give Styles </h4>
+                    <figure class="image__container-topic">
+                        <img src="assets/HTML5_Logo.webp" class="tipic__img">
+                        <img src="assets/css.webp" class="tipic__img">
+                        <figcaption class="image__desctiption-topic">HTML 5 & CSS3</figcaption>
+                    </figure>
+                </article>
+                <article class="topics__topic">
+                    <h4 class="topic__title"> Give Dynamism to Your Page </h4>
+                    <figure class="image__container-topic">
+                        <img src="assets/javascript.webp" class="tipic__img">
+                        <figcaption class="image__desctiption-topic">JavaScript</figcaption>
+                    </figure>
+                </article>
+                <article class="topics__topic">
+                    <h4 class="topic__title"> Learn Libraries and Frameworks </h4>
+                    <figure class="image__container-topic">
+                        <img src="assets/react.webp" class="tipic__img">
+                        <img src="assets/angular.webp" class="tipic__img">
+                        <figcaption class="image__desctiption-topic">JavaScript Additions</figcaption>
+                    </figure>
+                </article>
+            </div>
+        </section>
+        <!--End of Description Section-->
+        <!--Our Presence Section -->
+        <section class="container__presence">
+            <h2 class="presence__title">You can find us here: </h2>
+            <div class="presence__container">
+                <figure class="presence__img-box">
+                    <img src="assets/udemy.webp" class="presence__img">
+                </figure>
+                <figure class="presence__img-box">
+                    <img src="assets/tutellus.webp" class="presence__img">
+                </figure>
+                <figure class="presence__img-box">
+                    <img src="assets/youtube.webp" class="presence__img">
+                </figure>
+                <figure class="presence__img-box">
+                    <img src="assets/freecodecamp.webp" class="presence__img">
+                </figure>
+            </div>
+        </section>
+        <section class="container__form">
+            <div class="form__box">
+                <form class="form__section">
+                    <header class="form__header">
+                        <h2 class="form__title">
+                            Want to Hear From Us?
+                        </h2>
+                        <h3 class="form__subtitle">
+                            Leave us a comment...
+                        </h3> 
+                    </header>
+                    <div class="form__input">
+                        <div class="input__box">
+                            <input type="text" name="name" placeholder="Your Name">
+                            <lable for="name" class="input__label">Name:</lable>
+                        </div>
+                        <div class="input__box">
+                            <input type="email" name="name" placeholder="user@email.com">
+                            <lable for="email" class="input__label">Email:</lable>
+                        </div>
+                    </div>
+                    <div class="form__text-area">
+                        <textarea class="form__comment" placeholder="Leave us a comment"></textarea>
+                    </div>
+                    <input type="submit" class="submit__button" value="Submit" />
+                </form>    
+            </div>
+        </section>
+        <footer class="container__footer">
+            &copy; Reynaldo Castano 2024
+            <a href="#">Return</a>
+        </footer>
+    </div>
 </body>
 </html>
